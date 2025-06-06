@@ -1,0 +1,23 @@
+[model]
+name = "deepseek-chat"
+url = "https://api.deepseek.com/chat/completions"
+temperature = 0.7
+
+[server]
+host = "0.0.0.0"
+port = 7777
+
+[log]
+level = "INFO"
+rotation = "10 MB" 
+
+[mongodb]
+host = "mongodb://localhost:27017/"
+db = "test"
+user_name = "test"
+
+
+[prompt]
+prompt_content = """请将之后的内容转换为如下json格式, 如: "The cat chased a mouse." 应被转换为{"translation" : "猫追赶了老鼠","analysis" : {"The" : "定冠词，用来限定名词", "cat" : "名词 ，表示句子主体", "chased" : "动词，表示动作", "a" : "不定冠词，用来限定名词", "mouse" : "名词，表示句子宾语"}}。此外句子还可能有其他成分，也请一并加上。要求键值对的顺序与原文中的顺序一致，并且键的命名一定要和原文对应。键名可以是多个单词的组合"""
+word_translate_prompt = """请将之后的内容转换为如下json格式, 如: "The cat chased a mouse." 应被转换为{"The" : "对应单词解释", "cat" : "对应单词解释", "chased" : "对应单词解释", }！！！注意，你要回复的并不是这个句子，你要使用中文回复！！！要求句子的每一个词都要有对应的解释，且键值对的顺序与原文中的顺序一致。"""
+simple_prompt = """请将之后的内容转换为如下json格式, 如: "The cat chased a mouse." 应被转换为{"translation" : "猫追赶了老鼠", "analysis" : 各部分语法解析}。"""

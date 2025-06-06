@@ -1,0 +1,1640 @@
+2025-03-12 21:26:39.975 | INFO     | app:translate:103 - Translating text: Hello world！
+2025-03-12 21:26:39.975 | INFO     | app:translate:103 - Translating text: Hello world！
+2025-03-12 21:26:39.976 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Hello world！'}]
+2025-03-12 21:26:39.976 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Hello world！'}]
+2025-03-12 21:26:39.977 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-12 21:26:39.977 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-12 21:26:40.312 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-12 21:26:40.312 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-12 21:26:40.313 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-V3
+2025-03-12 21:26:40.313 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-V3
+2025-03-12 21:26:50.741 | INFO     | app:translate:113 - First result: {'id': '01958a892cdbe1befb2da5b93cfbd70e', 'object': 'chat.completion', 'created': 1741786000, 'model': 'deepseek-ai/DeepSeek-V3', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{\n    "translation": "你好，世界！",\n    "analysis": "这是一个简单的英文问候句，由两个单词组成。\'Hello\'是问候语，表示打招呼或引起注意，相当于中文的\'你好\'。\'world\'指的是世界，这里用来泛指所有人或事物。感叹号\'！\'用于表达强烈的情感或强调。整个句子简洁明了，常用于编程中的初始示例或表示开始。"\n}'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 55, 'completion_tokens': 89, 'total_tokens': 144}, 'system_fingerprint': ''}
+2025-03-12 21:26:50.741 | INFO     | app:translate:113 - First result: {'id': '01958a892cdbe1befb2da5b93cfbd70e', 'object': 'chat.completion', 'created': 1741786000, 'model': 'deepseek-ai/DeepSeek-V3', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{\n    "translation": "你好，世界！",\n    "analysis": "这是一个简单的英文问候句，由两个单词组成。\'Hello\'是问候语，表示打招呼或引起注意，相当于中文的\'你好\'。\'world\'指的是世界，这里用来泛指所有人或事物。感叹号\'！\'用于表达强烈的情感或强调。整个句子简洁明了，常用于编程中的初始示例或表示开始。"\n}'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 55, 'completion_tokens': 89, 'total_tokens': 144}, 'system_fingerprint': ''}
+2025-03-12 21:27:26.604 | INFO     | app:translate:103 - Translating text: 我庭の小草萌えいでぬ限りなき天地今やよみがへるらし.
+
+2025-03-12 21:27:26.604 | INFO     | app:translate:103 - Translating text: 我庭の小草萌えいでぬ限りなき天地今やよみがへるらし.
+
+2025-03-12 21:27:26.604 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': '我庭の小草萌えいでぬ限りなき天地今やよみがへるらし.\n'}]
+2025-03-12 21:27:26.604 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': '我庭の小草萌えいでぬ限りなき天地今やよみがへるらし.\n'}]
+2025-03-12 21:27:26.605 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-12 21:27:26.605 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-12 21:27:26.851 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-12 21:27:26.851 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-12 21:27:26.851 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-V3
+2025-03-12 21:27:26.851 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-V3
+2025-03-12 21:27:55.881 | INFO     | app:translate:113 - First result: {'id': '01958a89e21e2676f2714ad1987ccdc0', 'object': 'chat.completion', 'created': 1741786048, 'model': 'deepseek-ai/DeepSeek-V3', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{\n    "translation": "只要我庭院中的小草发芽，无限的天地似乎正在复苏。",\n    "analysis": "这个句子是日语，采用了古典的诗歌形式。首先是主语部分「我庭の小草」，意为‘我庭院中的小草’，其中「の」表示所属关系。谓语部分「萌えいでぬ」由动词「萌える」（发芽）的未然形「萌え」加上表示完成的「いでぬ」构成，意为‘已经发芽’。接下来是宾语部分「限りなき天地」，意为‘无限的天地’，其中「限りなき」是形容词，表示‘无限的’。最后是谓语部分「今やよみがへるらし」，其中「今や」表示‘现在’，「よみがへる」是动词，意为‘复苏’，「らし」表示推测，整句意为‘似乎正在复苏’。整个句子通过描述小草的发芽来暗示大自然的复苏，充满了生机和希望。"\n}'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 76, 'completion_tokens': 203, 'total_tokens': 279}, 'system_fingerprint': ''}
+2025-03-12 21:27:55.881 | INFO     | app:translate:113 - First result: {'id': '01958a89e21e2676f2714ad1987ccdc0', 'object': 'chat.completion', 'created': 1741786048, 'model': 'deepseek-ai/DeepSeek-V3', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{\n    "translation": "只要我庭院中的小草发芽，无限的天地似乎正在复苏。",\n    "analysis": "这个句子是日语，采用了古典的诗歌形式。首先是主语部分「我庭の小草」，意为‘我庭院中的小草’，其中「の」表示所属关系。谓语部分「萌えいでぬ」由动词「萌える」（发芽）的未然形「萌え」加上表示完成的「いでぬ」构成，意为‘已经发芽’。接下来是宾语部分「限りなき天地」，意为‘无限的天地’，其中「限りなき」是形容词，表示‘无限的’。最后是谓语部分「今やよみがへるらし」，其中「今や」表示‘现在’，「よみがへる」是动词，意为‘复苏’，「らし」表示推测，整句意为‘似乎正在复苏’。整个句子通过描述小草的发芽来暗示大自然的复苏，充满了生机和希望。"\n}'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 76, 'completion_tokens': 203, 'total_tokens': 279}, 'system_fingerprint': ''}
+2025-03-13 00:40:14.620 | INFO     | app:translate:103 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:40:14.620 | INFO     | app:translate:103 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:40:14.634 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:40:14.634 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:40:14.635 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:40:14.635 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:40:14.822 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:40:14.822 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:40:14.822 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-V3
+2025-03-13 00:40:14.822 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-V3
+2025-03-13 00:40:29.957 | INFO     | app:translate:113 - First result: {'id': '01958b3a65edb28695f2b0cc8780a126', 'object': 'chat.completion', 'created': 1741797616, 'model': 'deepseek-ai/DeepSeek-V3', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '```json\n{\n  "translation": "为给定的聊天对话创建模型响应。",\n  "analysis": "这是一个简单的祈使句，用于指示或命令。句子结构如下：\\n1. \'Creates\' 是动词，表示创建或生成的动作。\\n2. \'a model response\' 是宾语，表示动作的对象，即模型的响应。\\n3. \'for the given chat conversation\' 是介词短语，用作状语，表示动作的目的或对象，即为特定的聊天对话生成响应。\\n整体来看，这个句子是在指导或命令某人或某系统为特定的聊天对话生成一个模型响应。"\n}\n```'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 63, 'completion_tokens': 137, 'total_tokens': 200}, 'system_fingerprint': ''}
+2025-03-13 00:40:29.957 | INFO     | app:translate:113 - First result: {'id': '01958b3a65edb28695f2b0cc8780a126', 'object': 'chat.completion', 'created': 1741797616, 'model': 'deepseek-ai/DeepSeek-V3', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '```json\n{\n  "translation": "为给定的聊天对话创建模型响应。",\n  "analysis": "这是一个简单的祈使句，用于指示或命令。句子结构如下：\\n1. \'Creates\' 是动词，表示创建或生成的动作。\\n2. \'a model response\' 是宾语，表示动作的对象，即模型的响应。\\n3. \'for the given chat conversation\' 是介词短语，用作状语，表示动作的目的或对象，即为特定的聊天对话生成响应。\\n整体来看，这个句子是在指导或命令某人或某系统为特定的聊天对话生成一个模型响应。"\n}\n```'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 63, 'completion_tokens': 137, 'total_tokens': 200}, 'system_fingerprint': ''}
+2025-03-13 00:41:06.366 | INFO     | app:translate:103 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:41:06.366 | INFO     | app:translate:103 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:41:06.367 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:41:06.367 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:41:06.367 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:41:06.367 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:41:06.547 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:41:06.547 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:41:06.547 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-V3
+2025-03-13 00:41:06.547 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-V3
+2025-03-13 00:41:19.092 | INFO     | app:translate:113 - First result: {'id': '01958b3b2fc8f0991e23016d6e933b7b', 'object': 'chat.completion', 'created': 1741797667, 'model': 'deepseek-ai/DeepSeek-V3', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '```json\n{\n  "translation": "为给定的聊天对话创建一个模型响应。",\n  "analysis": "这是一个简单的祈使句，主语被省略了，通常理解为对话中的一方或系统。动词是\'creates\'，表示创造或生成。\'a model response\'是宾语，指的是一个模型的响应。\'for the given chat conversation\'是介词短语，作状语，表示这个响应是为了特定的聊天对话而创建的。"\n}\n```'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 63, 'completion_tokens': 95, 'total_tokens': 158}, 'system_fingerprint': ''}
+2025-03-13 00:41:19.092 | INFO     | app:translate:113 - First result: {'id': '01958b3b2fc8f0991e23016d6e933b7b', 'object': 'chat.completion', 'created': 1741797667, 'model': 'deepseek-ai/DeepSeek-V3', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '```json\n{\n  "translation": "为给定的聊天对话创建一个模型响应。",\n  "analysis": "这是一个简单的祈使句，主语被省略了，通常理解为对话中的一方或系统。动词是\'creates\'，表示创造或生成。\'a model response\'是宾语，指的是一个模型的响应。\'for the given chat conversation\'是介词短语，作状语，表示这个响应是为了特定的聊天对话而创建的。"\n}\n```'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 63, 'completion_tokens': 95, 'total_tokens': 158}, 'system_fingerprint': ''}
+2025-03-13 00:45:56.341 | INFO     | app:translate:103 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:45:56.341 | INFO     | app:translate:103 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:45:56.342 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:45:56.342 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:45:56.342 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:45:56.342 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:45:56.525 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:45:56.525 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:45:56.525 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 00:45:56.525 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 00:46:14.757 | ERROR    | app:translate:129 - Error in translation: 'str' object has no attribute 'json'
+2025-03-13 00:46:14.757 | ERROR    | app:translate:129 - Error in translation: 'str' object has no attribute 'json'
+2025-03-13 00:47:15.580 | INFO     | app:translate:103 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:47:15.580 | INFO     | app:translate:103 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:47:15.581 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:47:15.581 | INFO     | app:translate:110 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:47:15.581 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:47:15.581 | INFO     | app:call_model:58 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:47:15.768 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:47:15.768 | INFO     | app:call_model:63 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:47:15.768 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 00:47:15.768 | INFO     | app:call_model:64 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 00:53:24.096 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:53:24.096 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 00:53:24.097 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:53:24.097 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 00:53:24.098 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:53:24.098 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:53:24.296 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:53:24.296 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 00:53:24.296 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 00:53:24.296 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:05:38.985 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 01:05:38.985 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 01:05:38.986 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 01:05:38.986 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 01:05:38.987 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:05:38.987 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:05:39.253 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:05:39.253 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:05:39.254 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:05:39.254 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:08:00.455 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 01:08:00.455 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 01:08:00.456 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 01:08:00.456 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 01:08:00.457 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:08:00.457 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:08:00.814 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:08:00.814 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:08:00.814 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:08:00.814 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:11:49.410 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:11:49.410 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:11:49.411 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:11:49.411 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:11:49.411 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:11:49.411 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:11:49.779 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:11:49.779 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:11:49.779 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:11:49.779 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:12:14.308 | ERROR    | app:translate:134 - Error decoding JSON: Invalid control character at: line 3 column 157 (char 200)
+2025-03-13 01:12:14.308 | ERROR    | app:translate:134 - Error decoding JSON: Invalid control character at: line 3 column 157 (char 200)
+2025-03-13 01:12:29.862 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:12:29.862 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:12:29.863 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:12:29.863 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:12:29.864 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:12:29.864 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:12:30.149 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:12:30.149 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:12:30.150 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:12:30.150 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:13:07.047 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:13:07.047 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:13:07.049 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:13:07.049 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:13:07.050 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:07.050 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:07.325 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:07.325 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:07.326 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:13:07.326 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:13:16.895 | ERROR    | app:translate:134 - Error decoding JSON: Extra data: line 6 column 1 (char 220)
+2025-03-13 01:13:16.895 | ERROR    | app:translate:134 - Error decoding JSON: Extra data: line 6 column 1 (char 220)
+2025-03-13 01:13:20.258 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:13:20.258 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:13:20.260 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:13:20.260 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:13:20.261 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:20.261 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:20.648 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:20.648 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:20.649 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:13:20.649 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:13:26.158 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:13:26.158 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+
+
+2025-03-13 01:13:26.160 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:13:26.160 | INFO     | app:translate:111 - Calling model API with messages: [{'role': 'system', 'content': '你是一个专业的翻译助手，请提供英文句子的中文翻译和详细的语法分析。要求返回格式为json，分为translation和analysis两个字段。analysis字段可以随意发挥，无需保持json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.\n\n'}]
+2025-03-13 01:13:26.160 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:26.160 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:26.505 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:26.505 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 01:13:26.505 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:13:26.505 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 01:13:37.990 | ERROR    | app:translate:134 - Error decoding JSON: Invalid control character at: line 3 column 157 (char 294)
+2025-03-13 01:13:37.990 | ERROR    | app:translate:134 - Error decoding JSON: Invalid control character at: line 3 column 157 (char 294)
+2025-03-13 21:45:30.277 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 21:45:30.277 | INFO     | app:translate:104 - Translating text: Creates a model response for the given chat conversation.
+2025-03-13 21:45:30.293 | INFO     | app:translate:115 - Calling model API with messages: [{'role': 'system', 'content': '\n             你是一个专业的翻译助手，请提供之后提供句子的中文翻译和详细的语法分析。\n             如果是单词就返回单词翻译和单词解析。要求返回格式为json，\n             分为translation和analysis两个字段。tanslation字段存放对应翻译,\n             analysis字段可以随意发挥，内部要求用自然语言回复，无需用json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 21:45:30.293 | INFO     | app:translate:115 - Calling model API with messages: [{'role': 'system', 'content': '\n             你是一个专业的翻译助手，请提供之后提供句子的中文翻译和详细的语法分析。\n             如果是单词就返回单词翻译和单词解析。要求返回格式为json，\n             分为translation和analysis两个字段。tanslation字段存放对应翻译,\n             analysis字段可以随意发挥，内部要求用自然语言回复，无需用json格式，但是一定要有详细语法分析'}, {'role': 'user', 'content': 'Creates a model response for the given chat conversation.'}]
+2025-03-13 21:45:30.294 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 21:45:30.294 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 21:45:30.598 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 21:45:30.598 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-13 21:45:30.599 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-13 21:45:30.599 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 13:44:02.927 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 13:44:02.927 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 13:44:02.932 | INFO     | app:translate:113 - Calling model API with messages: [{'role': 'system', 'content': '\n             你是一名专业的中医，请根据接下来的病例描述，给出诊断意见以及治疗方案，\n             要求使用中医术语回答'}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 13:44:02.932 | INFO     | app:translate:113 - Calling model API with messages: [{'role': 'system', 'content': '\n             你是一名专业的中医，请根据接下来的病例描述，给出诊断意见以及治疗方案，\n             要求使用中医术语回答'}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 13:44:02.934 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:44:02.934 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:44:03.125 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:44:03.125 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:44:03.126 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 13:44:03.126 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 13:44:18.832 | ERROR    | app:translate:136 - Error decoding JSON: Expecting value: line 1 column 1 (char 0)
+2025-03-15 13:44:18.832 | ERROR    | app:translate:136 - Error decoding JSON: Expecting value: line 1 column 1 (char 0)
+2025-03-15 13:44:49.942 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 13:44:49.942 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 13:44:49.948 | INFO     | app:translate:113 - Calling model API with messages: [{'role': 'system', 'content': '\n             你是一名专业的中医，请根据接下来的病例描述，给出诊断意见以及治疗方案，\n             要求使用中医术语回答'}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 13:44:49.948 | INFO     | app:translate:113 - Calling model API with messages: [{'role': 'system', 'content': '\n             你是一名专业的中医，请根据接下来的病例描述，给出诊断意见以及治疗方案，\n             要求使用中医术语回答'}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 13:44:49.950 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:44:49.950 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:44:50.140 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:44:50.140 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:44:50.140 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 13:44:50.140 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 13:45:01.778 | ERROR    | app:translate:139 - Error in translation: name 'logegr' is not defined
+2025-03-15 13:45:01.778 | ERROR    | app:translate:139 - Error in translation: name 'logegr' is not defined
+2025-03-15 13:45:12.645 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 13:45:12.645 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 13:45:12.649 | INFO     | app:translate:113 - Calling model API with messages: [{'role': 'system', 'content': '\n             你是一名专业的中医，请根据接下来的病例描述，给出诊断意见以及治疗方案，\n             要求使用中医术语回答'}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 13:45:12.649 | INFO     | app:translate:113 - Calling model API with messages: [{'role': 'system', 'content': '\n             你是一名专业的中医，请根据接下来的病例描述，给出诊断意见以及治疗方案，\n             要求使用中医术语回答'}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 13:45:12.650 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:45:12.650 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:45:12.839 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:45:12.839 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 13:45:12.840 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 13:45:12.840 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 13:45:29.096 | INFO     | app:translate:116 - First result: ### 中医诊断意见
+
+根据患者的症状、体征及舌脉表现，结合中医辨证论治，诊断为：
+
+**中医诊断：肠痈（湿热蕴结证）**
+
+**病机分析：**
+- 患者平素饮食偏好高脂、辛辣，加之运动少，易致湿热内蕴。
+- 外感邪气，湿热蕴结，阻滞肠道，不通则痛。
+- 湿热燔灼，热毒壅结，故见右下腹疼痛、发热等症状。
+
+### 中医治疗方案
+
+#### 1. **中药治疗：清热解毒，通腑泄热**
+   - **基础方剂：** 龙胆泻肝汤合大黄牡丹汤加减
+     - 龙胆草 10g
+     - 黄芩 10g
+     - 栀子 10g
+     - 大黄 10g
+     - 丹皮 10g
+     - 桃仁 10g
+     - �䗪虫 10g
+     - 金银花 15g
+     - 连翘 15g
+   - **煎服方法：** 水煎分服，每日1剂，早晚各一次。
+
+   **中成药：** 阑尾清颗粒，口服，每次1袋，每日3次。
+
+#### 2. **针灸治疗：**
+   - **取穴：** 足三里、阑尾穴、合谷、太冲。
+   - **方法：** 采用平补平泻手法，以理气通络，行气止痛。
+
+#### 3. **饮食调理：**
+   - **饮食宜忌：**
+     - 宜：清淡饮食，多食新鲜蔬菜水果，如冬瓜、黄瓜、梨、西瓜等。
+     - 忌：辛辣、油腻、煎炸食物，避免海鲜发物。
+   - **推荐食疗：** 薏苡仁粥、绿豆汤、荷叶冬瓜汤。
+
+#### 4. **情志调理：**
+   - 患者焦虑情绪明显，需加强心理疏导，可配合中药疏肝理气，如柴胡疏肝散加减，以缓解焦虑情绪。
+
+#### 5. **生活调理：**
+   - 适当活动，如散步、太极拳等，以助气血运行，但避免过度劳累。
+   - 注意保暖，避免受凉，尤其是腹部。
+
+### 疗效观察
+
+1. **症状改善：** 用药后右下腹疼痛应逐渐减轻，发热症状缓解，食欲不振及乏力改善。
+2. **中医辨证调整：** 根据病情变化，可适当加减药物，如热盛加生石膏、知母，腑实明显加芒硝。
+
+### 外科配合治疗建议
+
+中医治疗同时，应配合西医抗生素治疗及必要的外科评估，如症状加重或治疗无效，及时手术治疗。
+2025-03-15 13:45:29.096 | INFO     | app:translate:116 - First result: ### 中医诊断意见
+
+根据患者的症状、体征及舌脉表现，结合中医辨证论治，诊断为：
+
+**中医诊断：肠痈（湿热蕴结证）**
+
+**病机分析：**
+- 患者平素饮食偏好高脂、辛辣，加之运动少，易致湿热内蕴。
+- 外感邪气，湿热蕴结，阻滞肠道，不通则痛。
+- 湿热燔灼，热毒壅结，故见右下腹疼痛、发热等症状。
+
+### 中医治疗方案
+
+#### 1. **中药治疗：清热解毒，通腑泄热**
+   - **基础方剂：** 龙胆泻肝汤合大黄牡丹汤加减
+     - 龙胆草 10g
+     - 黄芩 10g
+     - 栀子 10g
+     - 大黄 10g
+     - 丹皮 10g
+     - 桃仁 10g
+     - �䗪虫 10g
+     - 金银花 15g
+     - 连翘 15g
+   - **煎服方法：** 水煎分服，每日1剂，早晚各一次。
+
+   **中成药：** 阑尾清颗粒，口服，每次1袋，每日3次。
+
+#### 2. **针灸治疗：**
+   - **取穴：** 足三里、阑尾穴、合谷、太冲。
+   - **方法：** 采用平补平泻手法，以理气通络，行气止痛。
+
+#### 3. **饮食调理：**
+   - **饮食宜忌：**
+     - 宜：清淡饮食，多食新鲜蔬菜水果，如冬瓜、黄瓜、梨、西瓜等。
+     - 忌：辛辣、油腻、煎炸食物，避免海鲜发物。
+   - **推荐食疗：** 薏苡仁粥、绿豆汤、荷叶冬瓜汤。
+
+#### 4. **情志调理：**
+   - 患者焦虑情绪明显，需加强心理疏导，可配合中药疏肝理气，如柴胡疏肝散加减，以缓解焦虑情绪。
+
+#### 5. **生活调理：**
+   - 适当活动，如散步、太极拳等，以助气血运行，但避免过度劳累。
+   - 注意保暖，避免受凉，尤其是腹部。
+
+### 疗效观察
+
+1. **症状改善：** 用药后右下腹疼痛应逐渐减轻，发热症状缓解，食欲不振及乏力改善。
+2. **中医辨证调整：** 根据病情变化，可适当加减药物，如热盛加生石膏、知母，腑实明显加芒硝。
+
+### 外科配合治疗建议
+
+中医治疗同时，应配合西医抗生素治疗及必要的外科评估，如症状加重或治疗无效，及时手术治疗。
+2025-03-15 13:45:29.107 | ERROR    | app:translate:136 - Error decoding JSON: Expecting value: line 1 column 1 (char 0)
+2025-03-15 13:45:29.107 | ERROR    | app:translate:136 - Error decoding JSON: Expecting value: line 1 column 1 (char 0)
+2025-03-15 14:44:43.272 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 14:44:43.272 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 14:44:43.287 | INFO     | app:translate:119 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案应包括中药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用mark\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 14:44:43.287 | INFO     | app:translate:119 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案应包括中药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用mark\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 14:44:43.290 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:44:43.290 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:44:43.482 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:44:43.482 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:44:43.482 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 14:44:43.482 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 14:45:13.700 | ERROR    | app:call_model:95 - HTTP错误: 
+2025-03-15 14:45:13.700 | ERROR    | app:call_model:95 - HTTP错误: 
+2025-03-15 14:45:13.702 | ERROR    | app:translate:143 - Error in translation: 500: API请求错误: 
+2025-03-15 14:45:13.702 | ERROR    | app:translate:143 - Error in translation: 500: API请求错误: 
+2025-03-15 14:46:29.551 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 14:46:29.551 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 14:46:29.556 | INFO     | app:translate:119 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案应包括中药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用mark\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 14:46:29.556 | INFO     | app:translate:119 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案应包括中药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用mark\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 14:46:29.560 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:46:29.560 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:46:29.748 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:46:29.748 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:46:29.749 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 14:46:29.749 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 14:46:56.959 | INFO     | app:translate:122 - First result: ### 中医诊断意见及治疗方案
+
+#### 病案分析：
+患者张某某，45岁，女性，主诉反复右下腹疼痛伴低热1周，加重2天。结合病史、体格检查及辅助检查，西医诊断为急性阑尾炎（可能性大），需与肠系膜淋巴结炎及妇科疾病相鉴别。中医从整体观念出发，认为此病属于“肠痈”范畴，病机为湿热蕴结、气滞血瘀，导致腑气不通，热毒成脓。
+
+#### 中医诊断：
+**中医病名：** 肠痈  
+**证型：** 湿热蕴结兼气滞血瘀
+
+#### 病因分析：
+1. **饮食不节：** 平时喜食高脂、辛辣之品，损伤脾胃，湿热内生。
+2. **气机不畅：** 长期久坐少动，气机运行不畅，湿热瘀结于大肠。
+3. **情志不畅：** 患者因担心病情加重，导致肝气郁结，气滞血瘀。
+
+#### 症状描述：
+1. **右下腹疼痛：** 持续性钝痛，活动后加重，与气机阻滞有关。
+2. **低热：** 湿热蕴结，正邪相争。
+3. **食欲减退、乏力：** 湿热内蕴，脾胃受损。
+4. **舌脉象：** 舌质红，苔黄腻，脉弦数，提示湿热内盛。
+
+#### 诊断结论：
+湿热蕴结大肠，气滞血瘀，腑气不通，导致肠痈。
+
+#### 治疗方案：
+
+**1. 中药内服：**
+**治法：** 清热解毒，活血化瘀，通腑消痈。
+
+**方剂：** 大黄牡丹汤加减
+
+**药物组成及剂量：**
+- **大黄：** 9g（后下）  
+- **牡丹皮：** 10g  
+- **桃仁：** 10g  
+- **赤芍：** 15g  
+- **芒硝：** 6g（溶化）  
+- **败酱草：** 15g  
+- **鱼腥草：** 15g  
+- **厚朴：** 10g  
+- **枳壳：** 10g  
+- **黄芩：** 10g  
+
+**煎服方法：** 上药㕮咀，㕮咀㕮咀㕮咀，水煎服，每日1剂，分2次服。
+
+**2. 针灸治疗：**
+**治法：** 清热解毒，通经止痛。
+
+**取穴：**
+- **足三里：** 清理肠胃，调和气血。
+- **阑尾穴：** 现代常用于治疗阑尾炎。
+- **太冲：** 疏肝理气，通络止痛。
+- **合谷：** 清热止痛。
+
+**操作方法：** 平补平泻手法，留针20分钟，每日1次。
+
+**3. 中药外敷：**
+**方剂：** 如意金黄散
+
+**使用方法：** 将如意金黄散调成糊状，外敷于右下腹疼痛部位，每日2次，每次敷药时间不超过3小时。
+
+**4. 情志调理：**
+**治法：** 疏肝解郁，清心除烦。
+
+**方法：** 患者因病情担忧，导致情志不畅，需进行心理疏导，可配合服用具有疏肝理气作用的中药，如逍遥散加减，以缓解焦虑情绪。
+
+**5. 饮食调理：**
+**原则：** 清淡饮食，忌辛辣油腻。
+
+**建议：** 多食清淡易消化食物，如粥类、蒸煮蔬菜，避免生冷、辛辣、油腻食物。
+
+**6. 西医结合治疗建议：**
+- **抗生素治疗：** 与西医结合使用抗生素，如头孢曲松钠静脉滴注，控制感染。
+- **外科会诊：** 若中药治疗无效或病情加重，建议外科手术探查。
+
+#### 疗程：
+1. **急性期治疗：** 7天，以清热解毒、通腑消痈为主。
+2. **巩固治疗：** 7天，巩固疗效，调理脾胃，防止复发。
+
+#### 注意事项：
+- 避免剧烈运动，注意休息。
+- 饮食以清淡为主，忌食辛辣油腻食物。
+- 保持心情舒畅，避免情绪波动过大。
+
+#### 预后：
+本病若治疗及时，湿热得清，气机通畅，则病情可较快缓解。若病情迁延，形成脓肿，则需结合西医治疗。
+
+#### 心理支持：
+患者因担心病情加重，可能出现焦虑情绪，需加强心理疏导，解释治疗方案，增强治疗信心。
+2025-03-15 14:46:56.959 | INFO     | app:translate:122 - First result: ### 中医诊断意见及治疗方案
+
+#### 病案分析：
+患者张某某，45岁，女性，主诉反复右下腹疼痛伴低热1周，加重2天。结合病史、体格检查及辅助检查，西医诊断为急性阑尾炎（可能性大），需与肠系膜淋巴结炎及妇科疾病相鉴别。中医从整体观念出发，认为此病属于“肠痈”范畴，病机为湿热蕴结、气滞血瘀，导致腑气不通，热毒成脓。
+
+#### 中医诊断：
+**中医病名：** 肠痈  
+**证型：** 湿热蕴结兼气滞血瘀
+
+#### 病因分析：
+1. **饮食不节：** 平时喜食高脂、辛辣之品，损伤脾胃，湿热内生。
+2. **气机不畅：** 长期久坐少动，气机运行不畅，湿热瘀结于大肠。
+3. **情志不畅：** 患者因担心病情加重，导致肝气郁结，气滞血瘀。
+
+#### 症状描述：
+1. **右下腹疼痛：** 持续性钝痛，活动后加重，与气机阻滞有关。
+2. **低热：** 湿热蕴结，正邪相争。
+3. **食欲减退、乏力：** 湿热内蕴，脾胃受损。
+4. **舌脉象：** 舌质红，苔黄腻，脉弦数，提示湿热内盛。
+
+#### 诊断结论：
+湿热蕴结大肠，气滞血瘀，腑气不通，导致肠痈。
+
+#### 治疗方案：
+
+**1. 中药内服：**
+**治法：** 清热解毒，活血化瘀，通腑消痈。
+
+**方剂：** 大黄牡丹汤加减
+
+**药物组成及剂量：**
+- **大黄：** 9g（后下）  
+- **牡丹皮：** 10g  
+- **桃仁：** 10g  
+- **赤芍：** 15g  
+- **芒硝：** 6g（溶化）  
+- **败酱草：** 15g  
+- **鱼腥草：** 15g  
+- **厚朴：** 10g  
+- **枳壳：** 10g  
+- **黄芩：** 10g  
+
+**煎服方法：** 上药㕮咀，㕮咀㕮咀㕮咀，水煎服，每日1剂，分2次服。
+
+**2. 针灸治疗：**
+**治法：** 清热解毒，通经止痛。
+
+**取穴：**
+- **足三里：** 清理肠胃，调和气血。
+- **阑尾穴：** 现代常用于治疗阑尾炎。
+- **太冲：** 疏肝理气，通络止痛。
+- **合谷：** 清热止痛。
+
+**操作方法：** 平补平泻手法，留针20分钟，每日1次。
+
+**3. 中药外敷：**
+**方剂：** 如意金黄散
+
+**使用方法：** 将如意金黄散调成糊状，外敷于右下腹疼痛部位，每日2次，每次敷药时间不超过3小时。
+
+**4. 情志调理：**
+**治法：** 疏肝解郁，清心除烦。
+
+**方法：** 患者因病情担忧，导致情志不畅，需进行心理疏导，可配合服用具有疏肝理气作用的中药，如逍遥散加减，以缓解焦虑情绪。
+
+**5. 饮食调理：**
+**原则：** 清淡饮食，忌辛辣油腻。
+
+**建议：** 多食清淡易消化食物，如粥类、蒸煮蔬菜，避免生冷、辛辣、油腻食物。
+
+**6. 西医结合治疗建议：**
+- **抗生素治疗：** 与西医结合使用抗生素，如头孢曲松钠静脉滴注，控制感染。
+- **外科会诊：** 若中药治疗无效或病情加重，建议外科手术探查。
+
+#### 疗程：
+1. **急性期治疗：** 7天，以清热解毒、通腑消痈为主。
+2. **巩固治疗：** 7天，巩固疗效，调理脾胃，防止复发。
+
+#### 注意事项：
+- 避免剧烈运动，注意休息。
+- 饮食以清淡为主，忌食辛辣油腻食物。
+- 保持心情舒畅，避免情绪波动过大。
+
+#### 预后：
+本病若治疗及时，湿热得清，气机通畅，则病情可较快缓解。若病情迁延，形成脓肿，则需结合西医治疗。
+
+#### 心理支持：
+患者因担心病情加重，可能出现焦虑情绪，需加强心理疏导，解释治疗方案，增强治疗信心。
+2025-03-15 14:50:41.344 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 14:50:41.344 | INFO     | app:translate:104 - Translating text: 姓名：张某某（化名）
+性别：女
+年龄：45岁
+职业：办公室职员
+婚姻状况：已婚
+主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。
+
+既往史
+
+既往体健，否认高血压、糖尿病、冠心病史。
+5年前因“阑尾炎”行阑尾切除术。
+无药物过敏史，无输血史。
+家族史无特殊，父母均无类似症状。
+个人史
+
+出生并居住于本地，无疫区旅居史。
+吸烟史：20支/日×15年，已戒烟2年。
+饮酒史：偶尔少量饮酒。
+饮食偏好：偏爱高脂、辛辣食物；运动较少。
+体格检查
+
+生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。
+腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。
+其他：无皮疹或黄疸，心肺听诊未见异常。
+辅助检查
+
+血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。
+尿常规：未见异常。
+腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。
+腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。
+初步诊断
+
+急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。
+肠系膜淋巴结炎？：需进一步排除。
+治疗建议
+
+住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。
+抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。
+禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。
+疼痛管理：必要时使用对乙酰氨基酚。
+外科会诊：若保守治疗无效或症状加重，需考虑手术探查。
+备注
+患者焦虑，担心病情严重性，需加强心理支持。
+2025-03-15 14:50:41.350 | INFO     | app:translate:119 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案应包括中药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用mark\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 14:50:41.350 | INFO     | app:translate:119 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案应包括中药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用mark\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-15 14:50:41.363 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:50:41.363 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:50:41.567 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:50:41.567 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-15 14:50:41.568 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 14:50:41.568 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-15 14:51:05.277 | INFO     | app:translate:122 - First result: ### 姓名：张某某（化名）
+
+#### 性别：女  
+#### 年龄：45岁  
+#### 职业：办公室职员  
+#### 婚姻状况：已婚  
+
+---
+
+### 主诉  
+反复右下腹疼痛伴低热1周，加重2天。  
+
+---
+
+### 既往史  
+- 5年前因“阑尾炎”行阑尾切除术。  
+- 无高血压、糖尿病、冠心病史。  
+- 无药物过敏史，无输血史。  
+
+---
+
+### 个人史  
+- 吸烟史：20支/日×15年，已戒烟2年。  
+- 饮酒史：偶尔少量饮酒。  
+- 饮食偏好：偏爱高脂、辛辣食物；运动较少。  
+
+---
+
+### 体格检查  
+- 生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。  
+- 腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。  
+- 其他：无皮疹或黄疸，心肺听诊未见异常。  
+
+---
+
+### 辅助检查  
+- 血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。  
+- 尿常规：未见异常。  
+- 腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。  
+- 腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。  
+
+---
+
+### 中医诊断  
+
+#### 病因分析  
+1. **湿热蕴结**：患者平素喜食高脂、辛辣食物，损伤脾胃，湿热内生，阻滞肠道，导致右下腹疼痛。  
+2. **气滞血瘀**：情志不畅或饮食不节，致气机不畅，血行不畅，瘀滞于肠腑，引发胀痛。  
+3. **正气不足**：患者久坐少动，脾胃虚弱，气血运行不畅，复感外邪，病情加重。  
+
+#### 症状描述  
+- 右下腹疼痛，持续性钝痛，活动时加重，休息后稍缓解。  
+- 伴有低热（体温37.8℃），食欲减退，乏力。  
+- 舌质红，苔黄腻，脉弦数。  
+
+#### 诊断结论  
+- **中医病名**：**肠腑湿热证**（湿热蕴结，气滞血瘀）。  
+- **西医诊断**：急性阑尾炎（可能性大），需与妇科疾病（如附件炎）鉴别。  
+
+---
+
+### 治疗方案  
+
+#### 中药处方  
+1. **清热利湿，行气活血**：  
+   - **方剂名称**：**大黄牡丹汤加减**。  
+   - **药物组成**：  
+     - 大黄10g（后下）  
+     - 牡丹皮15g  
+     - 桃仁10g  
+     - 冬瓜子30g  
+     - 黄芩15g  
+     - 苍术10g  
+     - 厚朴10g  
+     - 陈皮10g  
+     - 甘草6g  
+   - **煎服方法**：每日1剂，水煎分2次服。  
+
+2. **加减调整**：  
+   - 若腹痛甚，可加延胡索15g、川楝子15g。  
+   - 若发热明显，可加柴胡15g、石膏30g（先煎）。  
+
+---
+
+#### 针灸治疗  
+1. **取穴**：  
+   - **足三里**（双侧）：健脾和胃，行气化瘀。  
+   - **阑尾穴**：清热解毒，消炎止痛。  
+   - **太冲穴**（双侧）：疏肝理气，调畅气机。  
+2. **操作方法**：  
+   - 平补平泻手法，每次留针20-30分钟，每日1次。  
+
+---
+
+#### 其他中医治疗方法  
+1. **饮食调理**：  
+   - 饮食以清淡、易消化为主，避免高脂、辛辣食物。  
+   - 推荐：绿豆汤、冬瓜汤、薏苡仁粥等。  
+
+2. **情志调理**：  
+   - 患者焦虑，需加强心理支持，缓解紧张情绪。  
+   - 可配合八段锦、太极拳等轻度运动，调节气机。  
+
+---
+
+#### 中西医结合治疗建议  
+1. **西医治疗**：  
+   - 继续使用抗生素（如头孢曲松钠）控制感染。  
+   - 住院观察，监测体温、血常规变化，评估手术必要性。  
+
+2. **中医治疗**：  
+   - 以中药清热利湿、行气活血为主，配合针灸治疗，缓解症状，促进康复。  
+
+---
+
+### 备注  
+患者目前病情符合急性阑尾炎的表现，需中西医结合治疗，同时注意心理支持，缓解患者焦虑情绪。若症状加重或保守治疗无效，应及时手术探查。
+2025-03-15 14:51:05.277 | INFO     | app:translate:122 - First result: ### 姓名：张某某（化名）
+
+#### 性别：女  
+#### 年龄：45岁  
+#### 职业：办公室职员  
+#### 婚姻状况：已婚  
+
+---
+
+### 主诉  
+反复右下腹疼痛伴低热1周，加重2天。  
+
+---
+
+### 既往史  
+- 5年前因“阑尾炎”行阑尾切除术。  
+- 无高血压、糖尿病、冠心病史。  
+- 无药物过敏史，无输血史。  
+
+---
+
+### 个人史  
+- 吸烟史：20支/日×15年，已戒烟2年。  
+- 饮酒史：偶尔少量饮酒。  
+- 饮食偏好：偏爱高脂、辛辣食物；运动较少。  
+
+---
+
+### 体格检查  
+- 生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。  
+- 腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。  
+- 其他：无皮疹或黄疸，心肺听诊未见异常。  
+
+---
+
+### 辅助检查  
+- 血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。  
+- 尿常规：未见异常。  
+- 腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。  
+- 腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。  
+
+---
+
+### 中医诊断  
+
+#### 病因分析  
+1. **湿热蕴结**：患者平素喜食高脂、辛辣食物，损伤脾胃，湿热内生，阻滞肠道，导致右下腹疼痛。  
+2. **气滞血瘀**：情志不畅或饮食不节，致气机不畅，血行不畅，瘀滞于肠腑，引发胀痛。  
+3. **正气不足**：患者久坐少动，脾胃虚弱，气血运行不畅，复感外邪，病情加重。  
+
+#### 症状描述  
+- 右下腹疼痛，持续性钝痛，活动时加重，休息后稍缓解。  
+- 伴有低热（体温37.8℃），食欲减退，乏力。  
+- 舌质红，苔黄腻，脉弦数。  
+
+#### 诊断结论  
+- **中医病名**：**肠腑湿热证**（湿热蕴结，气滞血瘀）。  
+- **西医诊断**：急性阑尾炎（可能性大），需与妇科疾病（如附件炎）鉴别。  
+
+---
+
+### 治疗方案  
+
+#### 中药处方  
+1. **清热利湿，行气活血**：  
+   - **方剂名称**：**大黄牡丹汤加减**。  
+   - **药物组成**：  
+     - 大黄10g（后下）  
+     - 牡丹皮15g  
+     - 桃仁10g  
+     - 冬瓜子30g  
+     - 黄芩15g  
+     - 苍术10g  
+     - 厚朴10g  
+     - 陈皮10g  
+     - 甘草6g  
+   - **煎服方法**：每日1剂，水煎分2次服。  
+
+2. **加减调整**：  
+   - 若腹痛甚，可加延胡索15g、川楝子15g。  
+   - 若发热明显，可加柴胡15g、石膏30g（先煎）。  
+
+---
+
+#### 针灸治疗  
+1. **取穴**：  
+   - **足三里**（双侧）：健脾和胃，行气化瘀。  
+   - **阑尾穴**：清热解毒，消炎止痛。  
+   - **太冲穴**（双侧）：疏肝理气，调畅气机。  
+2. **操作方法**：  
+   - 平补平泻手法，每次留针20-30分钟，每日1次。  
+
+---
+
+#### 其他中医治疗方法  
+1. **饮食调理**：  
+   - 饮食以清淡、易消化为主，避免高脂、辛辣食物。  
+   - 推荐：绿豆汤、冬瓜汤、薏苡仁粥等。  
+
+2. **情志调理**：  
+   - 患者焦虑，需加强心理支持，缓解紧张情绪。  
+   - 可配合八段锦、太极拳等轻度运动，调节气机。  
+
+---
+
+#### 中西医结合治疗建议  
+1. **西医治疗**：  
+   - 继续使用抗生素（如头孢曲松钠）控制感染。  
+   - 住院观察，监测体温、血常规变化，评估手术必要性。  
+
+2. **中医治疗**：  
+   - 以中药清热利湿、行气活血为主，配合针灸治疗，缓解症状，促进康复。  
+
+---
+
+### 备注  
+患者目前病情符合急性阑尾炎的表现，需中西医结合治疗，同时注意心理支持，缓解患者焦虑情绪。若症状加重或保守治疗无效，应及时手术探查。
+2025-03-20 14:32:54.783 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:32:54.783 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:32:54.785 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:32:54.785 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:32:54.989 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:32:54.989 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:32:54.990 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-20 14:32:54.990 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-20 14:33:25.203 | ERROR    | app:call_model:95 - HTTP错误: 
+2025-03-20 14:33:25.203 | ERROR    | app:call_model:95 - HTTP错误: 
+2025-03-20 14:33:25.204 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: 
+2025-03-20 14:33:25.204 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: 
+2025-03-20 14:33:34.721 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:33:34.721 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:33:34.723 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:33:34.723 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:33:34.947 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:33:34.947 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:33:34.948 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-20 14:33:34.948 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-20 14:34:05.131 | ERROR    | app:call_model:95 - HTTP错误: 
+2025-03-20 14:34:05.131 | ERROR    | app:call_model:95 - HTTP错误: 
+2025-03-20 14:34:05.134 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: 
+2025-03-20 14:34:05.134 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: 
+2025-03-20 14:35:50.398 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:35:50.398 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:35:50.408 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:35:50.408 | INFO     | app:call_model:59 - API URL: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:35:50.598 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:35:50.598 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.siliconflow.cn/v1/chat/completions
+2025-03-20 14:35:50.599 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-20 14:35:50.599 | INFO     | app:call_model:65 - using model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+2025-03-20 14:36:20.763 | ERROR    | app:call_model:95 - HTTP错误: 
+2025-03-20 14:36:20.763 | ERROR    | app:call_model:95 - HTTP错误: 
+2025-03-20 14:36:20.765 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: 
+2025-03-20 14:36:20.765 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: 
+2025-03-20 14:39:10.847 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:39:10.847 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:39:10.857 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com
+2025-03-20 14:39:10.857 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com
+2025-03-20 14:39:11.048 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com
+2025-03-20 14:39:11.048 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com
+2025-03-20 14:39:11.048 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:39:11.048 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:39:12.290 | ERROR    | app:call_model:95 - HTTP错误: Client error '404 Not Found' for url 'https://api.deepseek.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:39:12.290 | ERROR    | app:call_model:95 - HTTP错误: Client error '404 Not Found' for url 'https://api.deepseek.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:39:12.292 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '404 Not Found' for url 'https://api.deepseek.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:39:12.292 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '404 Not Found' for url 'https://api.deepseek.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:39:37.193 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:39:37.193 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:39:37.196 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/v1
+2025-03-20 14:39:37.196 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/v1
+2025-03-20 14:39:37.389 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/v1
+2025-03-20 14:39:37.389 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/v1
+2025-03-20 14:39:37.390 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:39:37.390 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:39:38.619 | ERROR    | app:call_model:95 - HTTP错误: Client error '404 Not Found' for url 'https://api.deepseek.com/v1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:39:38.619 | ERROR    | app:call_model:95 - HTTP错误: Client error '404 Not Found' for url 'https://api.deepseek.com/v1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:39:38.621 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '404 Not Found' for url 'https://api.deepseek.com/v1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:39:38.621 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '404 Not Found' for url 'https://api.deepseek.com/v1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:40:02.322 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:40:02.322 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:40:02.324 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/v1
+2025-03-20 14:40:02.324 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/v1
+2025-03-20 14:40:02.523 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/v1
+2025-03-20 14:40:02.523 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/v1
+2025-03-20 14:40:02.524 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:40:02.524 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:40:03.744 | ERROR    | app:call_model:95 - HTTP错误: Client error '404 Not Found' for url 'https://api.deepseek.com/v1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:40:03.744 | ERROR    | app:call_model:95 - HTTP错误: Client error '404 Not Found' for url 'https://api.deepseek.com/v1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:40:03.746 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '404 Not Found' for url 'https://api.deepseek.com/v1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:40:03.746 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '404 Not Found' for url 'https://api.deepseek.com/v1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:40:10.859 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:40:10.859 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:40:10.860 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:40:10.860 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:40:11.056 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:40:11.056 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:40:11.057 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:40:11.057 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:40:11.797 | ERROR    | app:call_model:95 - HTTP错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:40:11.797 | ERROR    | app:call_model:95 - HTTP错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:40:11.798 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:40:11.798 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:40:51.478 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:40:51.478 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:40:51.481 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:40:51.481 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:40:51.784 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:40:51.784 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:40:51.786 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:40:51.786 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:40:52.535 | ERROR    | app:call_model:95 - HTTP错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:40:52.535 | ERROR    | app:call_model:95 - HTTP错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:40:52.536 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:40:52.536 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:41:45.801 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:41:45.801 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:41:45.803 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:41:45.803 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:41:46.008 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:41:46.008 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:41:46.008 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:41:46.008 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:41:46.771 | ERROR    | app:call_model:95 - HTTP错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:41:46.771 | ERROR    | app:call_model:95 - HTTP错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:41:46.772 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:41:46.772 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:44:56.238 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:44:56.238 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:44:56.240 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com
+2025-03-20 14:44:56.240 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com
+2025-03-20 14:44:56.434 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com
+2025-03-20 14:44:56.434 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com
+2025-03-20 14:44:56.435 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:44:56.435 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:44:57.677 | ERROR    | app:call_model:95 - HTTP错误: Client error '404 Not Found' for url 'https://api.deepseek.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:44:57.677 | ERROR    | app:call_model:95 - HTTP错误: Client error '404 Not Found' for url 'https://api.deepseek.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:44:57.678 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '404 Not Found' for url 'https://api.deepseek.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:44:57.678 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '404 Not Found' for url 'https://api.deepseek.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-20 14:46:38.114 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:46:38.114 | INFO     | app:translate:121 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:46:38.117 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:46:38.117 | INFO     | app:call_model:59 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:46:38.314 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:46:38.314 | INFO     | app:call_model:64 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:46:38.315 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:46:38.315 | INFO     | app:call_model:65 - using model: deepseek-chat
+2025-03-20 14:46:39.061 | ERROR    | app:call_model:95 - HTTP错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:46:39.061 | ERROR    | app:call_model:95 - HTTP错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:46:39.062 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:46:39.062 | ERROR    | app:translate:161 - Error in translation: 500: API请求错误: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-20 14:48:18.820 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:48:18.820 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:48:18.823 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:48:18.823 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:48:19.014 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:48:19.014 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:48:19.015 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-20 14:48:19.015 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-20 14:48:49.798 | ERROR    | app:call_model:96 - HTTP错误: 
+2025-03-20 14:48:49.798 | ERROR    | app:call_model:96 - HTTP错误: 
+2025-03-20 14:48:49.798 | ERROR    | app:translate:162 - Error in translation: 500: API请求错误: 
+2025-03-20 14:48:49.798 | ERROR    | app:translate:162 - Error in translation: 500: API请求错误: 
+2025-03-20 14:49:53.685 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:49:53.685 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:49:53.687 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:49:53.687 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:49:53.910 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:49:53.910 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:49:53.911 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-20 14:49:53.911 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-20 14:50:24.644 | ERROR    | app:call_model:96 - HTTP错误: 
+2025-03-20 14:50:24.644 | ERROR    | app:call_model:96 - HTTP错误: 
+2025-03-20 14:50:24.646 | ERROR    | app:translate:162 - Error in translation: 500: API请求错误: 
+2025-03-20 14:50:24.646 | ERROR    | app:translate:162 - Error in translation: 500: API请求错误: 
+2025-03-20 14:50:45.707 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:50:45.707 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '姓名：张某某（化名）\n性别：女\n年龄：45岁\n职业：办公室职员\n婚姻状况：已婚\n主诉：反复右下腹疼痛伴低热1周，加重2天。患者1周前无明显诱因出现右下腹隐痛，疼痛为持续性钝痛，活动时加重，休息后稍缓解，伴有轻度恶心，未呕吐。自行服用“布洛芬”后疼痛可暂时缓解，但未完全消失。近2天，腹痛突然加剧，转为持续性胀痛，并出现低热（体温37.8℃），伴食欲减退、乏力。今日就诊，无腹泻、黑便、尿频尿急，无咳嗽或胸痛。\n\n既往史\n\n既往体健，否认高血压、糖尿病、冠心病史。\n5年前因“阑尾炎”行阑尾切除术。\n无药物过敏史，无输血史。\n家族史无特殊，父母均无类似症状。\n个人史\n\n出生并居住于本地，无疫区旅居史。\n吸烟史：20支/日×15年，已戒烟2年。\n饮酒史：偶尔少量饮酒。\n饮食偏好：偏爱高脂、辛辣食物；运动较少。\n体格检查\n\n生命体征：体温37.6℃，脉搏88次/分，呼吸18次/分，血压120/80 mmHg。\n腹部检查：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱。\n其他：无皮疹或黄疸，心肺听诊未见异常。\n辅助检查\n\n血常规：白细胞计数14.2×10⁹/L（↑），中性粒细胞比例82%（↑）。\n尿常规：未见异常。\n腹部超声：右下腹阑尾区域未见明显肿大，但提示局部炎症可能；盲肠壁增厚。\n腹部CT：右下腹脂肪条纹模糊，提示炎症性病变。\n初步诊断\n\n急性阑尾炎（可能性大）：症状、体征及检查结果符合，需与妇科疾病（如附件炎）鉴别。\n肠系膜淋巴结炎？：需进一步排除。\n治疗建议\n\n住院观察：监测体温、血常规变化，完善C反应蛋白、降钙素原检测。\n抗生素治疗：头孢曲松钠静脉滴注（覆盖革兰氏阴性菌）。\n禁食水+补液：纠正脱水，待病情稳定后评估手术必要性。\n疼痛管理：必要时使用对乙酰氨基酚。\n外科会诊：若保守治疗无效或症状加重，需考虑手术探查。\n备注\n患者焦虑，担心病情严重性，需加强心理支持。'}]
+2025-03-20 14:50:45.708 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:50:45.708 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-20 14:50:45.910 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:50:45.910 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-20 14:50:45.911 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-20 14:50:45.911 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-20 14:51:23.504 | INFO     | app:translate:127 - data: {"response" : "根据患者的症状、体征及辅助检查结果，中医诊断为“肠痈”（急性阑尾炎）。以下为详细分析及治疗方案：
+
+### 病因分析
+患者长期饮食不节，偏好高脂、辛辣食物，导致脾胃湿热内生，湿热蕴结于肠腑，气血瘀滞，化热成毒，发为肠痈。加之患者曾有阑尾切除史，局部气血运行不畅，易感外邪，湿热毒邪乘虚而入，加重病情。
+
+### 症状描述
+1. **右下腹疼痛**：持续性钝痛，活动时加重，休息后稍缓解，近2天转为持续性胀痛。
+2. **低热**：体温37.8℃，提示湿热内蕴，毒邪炽盛。
+3. **食欲减退、乏力**：脾胃湿热，运化失司，气血生化不足。
+4. **恶心**：湿热中阻，胃气上逆。
+5. **腹部体征**：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱，提示局部气血瘀滞，湿热毒邪壅盛。
+
+### 诊断结论
+中医诊断：肠痈（湿热瘀滞证）
+西医诊断：急性阑尾炎
+
+### 治疗方案
+
+#### 1. 中药处方
+治则：清热利湿，解毒化瘀，通腑止痛。
+方药：**大黄牡丹汤**加减
+- 大黄（后下）10g
+- 牡丹皮12g
+- 桃仁10g
+- 冬瓜仁15g
+- 芒硝（冲服）6g
+- 败酱草15g
+- 红藤15g
+- 薏苡仁20g
+- 甘草6g
+
+**煎服法**：每日1剂，水煎2次，早晚分服。
+
+#### 2. 中成药处方
+- **阑尾消炎片**：每次4片，每日3次，口服。
+- **清热解毒口服液**：每次10ml，每日3次，口服。
+
+#### 3. 针灸治疗
+取穴：足三里、天枢、上巨虚、曲池、合谷、内关。
+操作：毫针直刺，平补平泻，留针30分钟，每日1次。
+
+#### 4. 其他治疗
+- **饮食调理**：清淡饮食，忌辛辣、油腻、生冷食物，多食易消化食物如粥、汤等。
+- **情志调护**：患者焦虑，需加强心理疏导，保持心情舒畅，避免情绪波动。
+- **生活调摄**：适当卧床休息，避免剧烈活动，保持大便通畅。
+
+#### 5. 西医治疗
+- **抗生素治疗**：头孢曲松钠静脉滴注，覆盖革兰氏阴性菌。
+- **禁食水+补液**：纠正脱水，待病情稳定后评估手术必要性。
+- **疼痛管理**：必要时使用对乙酰氨基酚。
+- **外科会诊**：若保守治疗无效或症状加重，需考虑手术探查。
+
+### 备注
+患者需密切观察病情变化，若出现高热、腹痛加剧、腹膜刺激征等，应及时转外科处理。同时，加强心理支持，缓解患者焦虑情绪。"}
+2025-03-20 14:51:23.504 | INFO     | app:translate:127 - data: {"response" : "根据患者的症状、体征及辅助检查结果，中医诊断为“肠痈”（急性阑尾炎）。以下为详细分析及治疗方案：
+
+### 病因分析
+患者长期饮食不节，偏好高脂、辛辣食物，导致脾胃湿热内生，湿热蕴结于肠腑，气血瘀滞，化热成毒，发为肠痈。加之患者曾有阑尾切除史，局部气血运行不畅，易感外邪，湿热毒邪乘虚而入，加重病情。
+
+### 症状描述
+1. **右下腹疼痛**：持续性钝痛，活动时加重，休息后稍缓解，近2天转为持续性胀痛。
+2. **低热**：体温37.8℃，提示湿热内蕴，毒邪炽盛。
+3. **食欲减退、乏力**：脾胃湿热，运化失司，气血生化不足。
+4. **恶心**：湿热中阻，胃气上逆。
+5. **腹部体征**：右下腹麦氏点压痛、反跳痛阳性，肌紧张轻微，肠鸣音减弱，提示局部气血瘀滞，湿热毒邪壅盛。
+
+### 诊断结论
+中医诊断：肠痈（湿热瘀滞证）
+西医诊断：急性阑尾炎
+
+### 治疗方案
+
+#### 1. 中药处方
+治则：清热利湿，解毒化瘀，通腑止痛。
+方药：**大黄牡丹汤**加减
+- 大黄（后下）10g
+- 牡丹皮12g
+- 桃仁10g
+- 冬瓜仁15g
+- 芒硝（冲服）6g
+- 败酱草15g
+- 红藤15g
+- 薏苡仁20g
+- 甘草6g
+
+**煎服法**：每日1剂，水煎2次，早晚分服。
+
+#### 2. 中成药处方
+- **阑尾消炎片**：每次4片，每日3次，口服。
+- **清热解毒口服液**：每次10ml，每日3次，口服。
+
+#### 3. 针灸治疗
+取穴：足三里、天枢、上巨虚、曲池、合谷、内关。
+操作：毫针直刺，平补平泻，留针30分钟，每日1次。
+
+#### 4. 其他治疗
+- **饮食调理**：清淡饮食，忌辛辣、油腻、生冷食物，多食易消化食物如粥、汤等。
+- **情志调护**：患者焦虑，需加强心理疏导，保持心情舒畅，避免情绪波动。
+- **生活调摄**：适当卧床休息，避免剧烈活动，保持大便通畅。
+
+#### 5. 西医治疗
+- **抗生素治疗**：头孢曲松钠静脉滴注，覆盖革兰氏阴性菌。
+- **禁食水+补液**：纠正脱水，待病情稳定后评估手术必要性。
+- **疼痛管理**：必要时使用对乙酰氨基酚。
+- **外科会诊**：若保守治疗无效或症状加重，需考虑手术探查。
+
+### 备注
+患者需密切观察病情变化，若出现高热、腹痛加剧、腹膜刺激征等，应及时转外科处理。同时，加强心理支持，缓解患者焦虑情绪。"}
+2025-03-20 14:51:23.506 | WARNING  | app:translate:134 - Failed to parse JSON directly: Invalid control character at: line 1 column 64 (char 63)
+2025-03-20 14:51:23.506 | WARNING  | app:translate:134 - Failed to parse JSON directly: Invalid control character at: line 1 column 64 (char 63)
+2025-03-20 14:51:23.507 | INFO     | app:translate:142 - Successfully parsed JSON after cleaning control characters
+2025-03-20 14:51:23.507 | INFO     | app:translate:142 - Successfully parsed JSON after cleaning control characters
+2025-03-22 21:01:35.159 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '\'file\': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",\'rate\':0.8,\'prompt\':筛选掉回答时间小于200s的数据'}]
+2025-03-22 21:01:35.159 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '\'file\': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",\'rate\':0.8,\'prompt\':筛选掉回答时间小于200s的数据'}]
+2025-03-22 21:01:35.164 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-22 21:01:35.164 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-22 21:01:35.645 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-22 21:01:35.645 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-22 21:01:35.646 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-22 21:01:35.646 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-22 21:01:46.016 | INFO     | app:translate:127 - data: {"response" : "根据您提供的信息，您要求筛选掉回答时间小于200秒的数据。这是一个数据处理任务，与中医诊断和治疗无关。如果您有关于中医的病例或健康问题需要咨询，请提供详细的症状和体征描述，我将为您提供专业的中医诊断和治疗方案。"}
+2025-03-22 21:01:46.016 | INFO     | app:translate:127 - data: {"response" : "根据您提供的信息，您要求筛选掉回答时间小于200秒的数据。这是一个数据处理任务，与中医诊断和治疗无关。如果您有关于中医的病例或健康问题需要咨询，请提供详细的症状和体征描述，我将为您提供专业的中医诊断和治疗方案。"}
+2025-03-22 21:05:21.909 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '\'file\': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",\'rate\':0.8,\'prompt\':筛选掉回答时间小于200s的数据'}]
+2025-03-22 21:05:21.909 | INFO     | app:translate:122 - Calling model API with messages: [{'role': 'system', 'content': '\n            你是一名专业的中医，请根据接下来的病例描述，给出详细的诊断意见以及治疗方案。\n            请注意：\n            1. 使用中医术语回答。\n            2. 包括病因分析、症状描述、诊断结论和具体的治疗方案。\n            3. 治疗方案可包括中药处方、中成药处方、针灸建议和其他中医治疗方法。\n            4. 请确保回答完整，详细，专业。\n            5. 要求使用markdown格式回答,但是不要出现markdown代码块的标识符，如\'\'\'markdown\'\'\'。\n            6. 响应格式请用{"response" : "回复信息"}的json格式回答,但是注意，一定不要添加代码块标识符\'\'\'json\'\'\'。\n            '}, {'role': 'user', 'content': '\'file\': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",\'rate\':0.8,\'prompt\':筛选掉回答时间小于200s的数据'}]
+2025-03-22 21:05:21.915 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-22 21:05:21.915 | INFO     | app:call_model:60 - API URL: https://api.deepseek.com/chat/completions
+2025-03-22 21:05:22.259 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-22 21:05:22.259 | INFO     | app:call_model:65 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-03-22 21:05:22.262 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-22 21:05:22.262 | INFO     | app:call_model:66 - using model: deepseek-chat
+2025-03-22 21:05:31.689 | INFO     | app:translate:127 - data: {"response": "根据您提供的信息，您要求筛选掉回答时间小于200秒的数据。这是一个数据处理任务，而不是中医病例分析。如果您有中医相关的病例需要分析，请提供详细的症状描述，我将根据中医理论为您提供专业的诊断和治疗方案。"}
+2025-03-22 21:05:31.689 | INFO     | app:translate:127 - data: {"response": "根据您提供的信息，您要求筛选掉回答时间小于200秒的数据。这是一个数据处理任务，而不是中医病例分析。如果您有中医相关的病例需要分析，请提供详细的症状描述，我将根据中医理论为您提供专业的诊断和治疗方案。"}
+2025-03-22 21:11:07.765 | INFO     | fake:database_ai:109 - Received request: 'file': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",'rate':0.8,'prompt':筛选掉回答时间小于200s的数据
+2025-03-22 21:11:07.765 | INFO     | fake:database_ai:109 - Received request: 'file': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",'rate':0.8,'prompt':筛选掉回答时间小于200s的数据
+2025-03-22 21:11:07.774 | INFO     | fake:database_ai:110 - Sending request to [31mdeepseek-reasoning[0m model
+2025-03-22 21:11:07.774 | INFO     | fake:database_ai:110 - Sending request to [31mdeepseek-reasoning[0m model
+2025-03-22 21:29:24.371 | INFO     | fake:database_ai:110 - Received request: 'file': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",'rate':0.8,'prompt':筛选掉回答时间小于200s的数据
+2025-03-22 21:29:24.371 | INFO     | fake:database_ai:110 - Received request: 'file': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",'rate':0.8,'prompt':筛选掉回答时间小于200s的数据
+2025-03-22 21:29:24.372 | INFO     | fake:database_ai:111 - Sending request to [31mdeepseek-reasoning[0m model
+2025-03-22 21:29:24.372 | INFO     | fake:database_ai:111 - Sending request to [31mdeepseek-reasoning[0m model
+2025-03-22 21:29:29.374 | INFO     | fake:database_ai:113 - Resolving data······
+2025-03-22 21:29:29.374 | INFO     | fake:database_ai:113 - Resolving data······
+2025-03-22 21:29:39.875 | INFO     | fake:database_ai:115 - Data resolved
+2025-03-22 21:29:39.875 | INFO     | fake:database_ai:115 - Data resolved
+2025-03-22 22:04:27.016 | INFO     | fake:database_ai:110 - Received request: 'file': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",'rate':0.8,'prompt':筛选掉回答时间小于200s的数据
+2025-03-22 22:04:27.016 | INFO     | fake:database_ai:110 - Received request: 'file': "306024280_按文本_莞香文化传承与宣传现状_101_101.csv",'rate':0.8,'prompt':筛选掉回答时间小于200s的数据
+2025-03-22 22:04:27.025 | INFO     | fake:database_ai:111 - Sending request to [31mdeepseek-reasoning[0m model
+2025-03-22 22:04:27.025 | INFO     | fake:database_ai:111 - Sending request to [31mdeepseek-reasoning[0m model
+2025-03-22 22:04:32.026 | INFO     | fake:database_ai:113 - Resolving data······
+2025-03-22 22:04:32.026 | INFO     | fake:database_ai:113 - Resolving data······
+2025-03-22 22:04:42.528 | INFO     | fake:database_ai:115 - Data resolved
+2025-03-22 22:04:42.528 | INFO     | fake:database_ai:115 - Data resolved
+2025-06-06 15:37:13.484 | INFO     | app:constitution_analysis:251 - Calling model API for constitution/medical analysis
+2025-06-06 15:37:13.484 | INFO     | app:constitution_analysis:251 - Calling model API for constitution/medical analysis
+2025-06-06 15:37:13.486 | INFO     | app:call_model:62 - API URL: https://api.deepseek.com/chat/completions
+2025-06-06 15:37:13.486 | INFO     | app:call_model:62 - API URL: https://api.deepseek.com/chat/completions
+2025-06-06 15:37:13.713 | INFO     | app:call_model:67 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-06-06 15:37:13.713 | INFO     | app:call_model:67 - Attempt 1/3 - sending request to model API: https://api.deepseek.com/chat/completions
+2025-06-06 15:37:13.713 | INFO     | app:call_model:68 - using model: deepseek-chat
+2025-06-06 15:37:13.713 | INFO     | app:call_model:68 - using model: deepseek-chat
+2025-06-06 15:38:06.877 | INFO     | app:constitution_analysis:257 - data: {
+  "response": "## 🌟 体质分析结果\n\n### 主要体质类型\n根据九种体质分类法，结合用户的症状表现和体质特征，初步判断为**气虚质**兼有**湿热质**倾向。\n\n### 📊 体质特征分析\n- **主要症状表现**：\n  - 疲劳程度中等（2分），睡眠质量较差（3分），表明可能存在气虚，精力不足。\n  - 怕热程度较高（3分），皮肤状况较差（3分），舌苔厚白，提示体内可能有湿热积聚。\n  - 手脚冰冷和怕冷程度中等（2分），可能与气虚导致的阳气不足有关。\n  - 情绪状态中等（2分），可能与睡眠不足和压力有关。\n\n- **体质偏向程度**：\n  - 气虚质为主，湿热质为辅。\n\n- **可能的健康隐患**：\n  - 长期睡眠不足可能导致免疫力下降，容易感冒或生病。\n  - 湿热积聚可能引发皮肤问题（如痤疮）或消化问题（如食欲不振）。\n  - 气虚可能导致体力不足，影响学习和运动能力。\n\n### � 个性化养生方案\n\n#### 1. 饮食调理\n- **推荐食物**：\n  - 补气食物：山药、红枣、小米、南瓜（可煮粥或蒸食）。\n  - 清热利湿食物：绿豆、冬瓜、薏米（可煮汤或粥）。\n- **避免食物**：\n  - 生冷食物（如冰淇淋、冷饮）。\n  - 油腻、辛辣食物（如炸鸡、辣椒）。\n- **饮食原则**：清淡为主，少量多餐，避免暴饮暴食。\n\n#### 2. 运动建议\n- **适合的运动类型**：\n  - 温和运动：散步、慢跑、太极拳（每天20-30分钟）。\n  - 避免剧烈运动，以免耗气。\n- **运动强度和频率**：每周3-4次，以微微出汗为宜。\n- **注意事项**：运动后及时补充水分，避免空腹运动。\n\n#### 3. 生活起居\n- **作息建议**：\n  - 保证每天7-8小时睡眠，尽量在晚上10点前入睡。\n  - 午间可小憩15-20分钟，帮助恢复精力。\n- **情绪调节**：\n  - 学习压力大时，可通过深呼吸或听轻音乐放松。\n  - 家长可多陪伴，减少孩子的心理负担。\n- **环境适应**：\n  - 保持房间通风，避免潮湿环境加重湿热。\n\n#### 4. 中医调理\n- **推荐中药材**：\n  - 补气：黄芪（可泡水或煮汤，每次3-5克）。\n  - 清热利湿：茯苓、薏苡仁（可煮粥）。\n- **穴位按摩**：\n  - 足三里（补气）、合谷（清热），每天按摩2-3分钟。\n- **季节养生要点**：\n  - 夏季注意防暑，多喝绿豆汤；冬季注意保暖，避免受寒。\n\n### 📅 21天养生打卡计划\n- **每日必做项目**：\n  - 早餐：小米红枣粥或山药南瓜粥。\n  - 午休：15-20分钟。\n  - 运动：散步20分钟。\n  - 睡前：热水泡脚10分钟。\n- **每周重点调理项目**：\n  - 第1周：调整作息，保证睡眠时间。\n  - 第2周：增加运动频率，每周4次。\n  - 第3周：引入清热利湿饮食（如冬瓜汤）。\n- **阶段性目标**：\n  - 21天后，睡眠质量改善，疲劳感减轻。\n\n### ⚠️ 注意事项\n- **体质调理的注意要点**：\n  - 饮食和运动需循序渐进，不可急于求成。\n  - 避免熬夜和过度用脑。\n- **什么情况下需要就医**：\n  - 如果出现持续疲劳、食欲不振或皮肤问题加重，建议咨询中医师。\n- **长期调理建议**：\n  - 坚持规律作息和适度运动，每年春秋季节可进行中医调理（如艾灸或推拿）。\n\n希望这份方案能帮助孩子逐步改善体质，健康成长！"
+}
+2025-06-06 15:38:06.877 | INFO     | app:constitution_analysis:257 - data: {
+  "response": "## 🌟 体质分析结果\n\n### 主要体质类型\n根据九种体质分类法，结合用户的症状表现和体质特征，初步判断为**气虚质**兼有**湿热质**倾向。\n\n### 📊 体质特征分析\n- **主要症状表现**：\n  - 疲劳程度中等（2分），睡眠质量较差（3分），表明可能存在气虚，精力不足。\n  - 怕热程度较高（3分），皮肤状况较差（3分），舌苔厚白，提示体内可能有湿热积聚。\n  - 手脚冰冷和怕冷程度中等（2分），可能与气虚导致的阳气不足有关。\n  - 情绪状态中等（2分），可能与睡眠不足和压力有关。\n\n- **体质偏向程度**：\n  - 气虚质为主，湿热质为辅。\n\n- **可能的健康隐患**：\n  - 长期睡眠不足可能导致免疫力下降，容易感冒或生病。\n  - 湿热积聚可能引发皮肤问题（如痤疮）或消化问题（如食欲不振）。\n  - 气虚可能导致体力不足，影响学习和运动能力。\n\n### � 个性化养生方案\n\n#### 1. 饮食调理\n- **推荐食物**：\n  - 补气食物：山药、红枣、小米、南瓜（可煮粥或蒸食）。\n  - 清热利湿食物：绿豆、冬瓜、薏米（可煮汤或粥）。\n- **避免食物**：\n  - 生冷食物（如冰淇淋、冷饮）。\n  - 油腻、辛辣食物（如炸鸡、辣椒）。\n- **饮食原则**：清淡为主，少量多餐，避免暴饮暴食。\n\n#### 2. 运动建议\n- **适合的运动类型**：\n  - 温和运动：散步、慢跑、太极拳（每天20-30分钟）。\n  - 避免剧烈运动，以免耗气。\n- **运动强度和频率**：每周3-4次，以微微出汗为宜。\n- **注意事项**：运动后及时补充水分，避免空腹运动。\n\n#### 3. 生活起居\n- **作息建议**：\n  - 保证每天7-8小时睡眠，尽量在晚上10点前入睡。\n  - 午间可小憩15-20分钟，帮助恢复精力。\n- **情绪调节**：\n  - 学习压力大时，可通过深呼吸或听轻音乐放松。\n  - 家长可多陪伴，减少孩子的心理负担。\n- **环境适应**：\n  - 保持房间通风，避免潮湿环境加重湿热。\n\n#### 4. 中医调理\n- **推荐中药材**：\n  - 补气：黄芪（可泡水或煮汤，每次3-5克）。\n  - 清热利湿：茯苓、薏苡仁（可煮粥）。\n- **穴位按摩**：\n  - 足三里（补气）、合谷（清热），每天按摩2-3分钟。\n- **季节养生要点**：\n  - 夏季注意防暑，多喝绿豆汤；冬季注意保暖，避免受寒。\n\n### 📅 21天养生打卡计划\n- **每日必做项目**：\n  - 早餐：小米红枣粥或山药南瓜粥。\n  - 午休：15-20分钟。\n  - 运动：散步20分钟。\n  - 睡前：热水泡脚10分钟。\n- **每周重点调理项目**：\n  - 第1周：调整作息，保证睡眠时间。\n  - 第2周：增加运动频率，每周4次。\n  - 第3周：引入清热利湿饮食（如冬瓜汤）。\n- **阶段性目标**：\n  - 21天后，睡眠质量改善，疲劳感减轻。\n\n### ⚠️ 注意事项\n- **体质调理的注意要点**：\n  - 饮食和运动需循序渐进，不可急于求成。\n  - 避免熬夜和过度用脑。\n- **什么情况下需要就医**：\n  - 如果出现持续疲劳、食欲不振或皮肤问题加重，建议咨询中医师。\n- **长期调理建议**：\n  - 坚持规律作息和适度运动，每年春秋季节可进行中医调理（如艾灸或推拿）。\n\n希望这份方案能帮助孩子逐步改善体质，健康成长！"
+}
